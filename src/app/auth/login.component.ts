@@ -60,8 +60,8 @@ export class LoginComponent implements OnInit {
 
   private createForm() {
     this.loginForm = this.formBuilder.group({
-      username: ['', Validators.required],
-      password: ['', Validators.required],
+      username: ['Abeyta.Eugene@testhow4.com', Validators.required],
+      password: ['T3sTfor4Ngul4r', Validators.required],
       remember: true,
     });
   }
